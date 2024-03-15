@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section class="container">
+      <div class="sticky-div">
+        <button class="sticky-btn">
+          <span class="plus">+</span> Add memory
+        </button>
+      </div>
+
+      <div class="intersector"></div>
+
+      <div class="hero wave">
+        <div class="hero-text">
+          <span>9 Dec 2022</span> <span class="dot">&middot;</span>
+          <span> 173 items</span>
+          <input class="input" type="text" placeholder="Add a title" />
+        </div>
+      </div>
+
+      <div class="photo-gal">
+        <div class="first-grid">
+          <div class="evanbishop-box">
+            <img class="evanbishop" src="img/evanbishop.jpg" alt="" />
+          </div>
+          <div class="sophiestand-box">
+            <img class="sophiestand" src="img/sophie-stand.jpg" alt="" />
+          </div>
+          <div class="evan-box">
+            <!-- <img class="evan" src="img/evan.jpg" alt="" /> -->
+          </div>
+        </div>
+        <div class="second-grid">
+          <div class="sophiehal-box">
+            <img src="img/sophiehal.jpg" alt="" class="sophiehal" />
+          </div>
+          <div class="som-box">
+            <img src="img/som.jpg" alt="" class="som" />
+          </div>
+        </div>
+      </div>
+
+      <div class="options">
+        <ion-icon class="options-icon" name="share-social-outline"></ion-icon>
+        <ion-icon class="options-icon" name="ellipsis-vertical"></ion-icon>
+      </div>
+
+      <footer>
+        <div class="photos">
+          <p><ion-icon name="image-outline"></ion-icon></p>
+          <p>Photos</p>
+        </div>
+        <div class="memories">
+          <p>
+            <span class="memories-icon"
+              ><ion-icon name="albums-outline"></ion-icon
+            ></span>
+          </p>
+          <p>Memories</p>
+        </div>
+        <div class="library">
+          <p><ion-icon name="library-sharp"></ion-icon></p>
+          <p>Library</p>
+        </div>
+        <div class="search">
+          <p><ion-icon name="search-outline"></ion-icon></p>
+          <p>Search</p>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
